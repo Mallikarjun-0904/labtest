@@ -31,7 +31,7 @@ class mavenTest {
         maven account = new maven(new BigDecimal("1000"));
         account.deposit(new BigDecimal("500"));
         account.withdraw(new BigDecimal("400"));
-        assertEquals(new BigDecimal("1300"), account.getBalance());
+        assertEquals(new BigDecimal("1100"), account.getBalance());
     }
 
     @Test
