@@ -30,7 +30,7 @@ class mavenTest {
     void testDepositAndWithdrawal() {
         maven account = new maven(new BigDecimal("1000"));
         account.deposit(new BigDecimal("500"));
-        account.withdraw(new BigDecimal("200"));
+        account.withdraw(new BigDecimal("400"));
         assertEquals(new BigDecimal("1300"), account.getBalance());
     }
 
